@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.png";
 
@@ -188,7 +187,7 @@ export default function WrappedPage() {
       </Card>
 
       <div className="order-first md:order-none col-span-2 row-span-2 flex flex-col items-center justify-center gap-8 p-6 relative">
-        <Link href="/">
+        <a href="https://raulcarini.com" target="_blank" rel="noopener noreferrer">
           <Image
             src={logo}
             width={64}
@@ -197,7 +196,7 @@ export default function WrappedPage() {
             placeholder="blur"
             className="rounded-full size-16"
           />
-        </Link>
+        </a>
         <div className="flex flex-col items-center justify-center gap-2 text-6xl text-transparent bg-clip-text bg-gradient-to-br from-25% from-zinc-50 to-zinc-400 font-black tracking-wide">
           <p className="text-center">Developer</p>
           <p className="text-center">Wrapped</p>
