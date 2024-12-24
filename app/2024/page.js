@@ -187,7 +187,7 @@ export default function WrappedPage() {
       </Card>
 
       <div className="order-first md:order-none col-span-2 row-span-2 flex flex-col items-center justify-center gap-8 p-6 relative">
-        <a href="https://raulcarini.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://raulcarini.dev" target="_blank" rel="noopener noreferrer">
           <Image
             src={logo}
             width={64}
