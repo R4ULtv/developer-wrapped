@@ -22,13 +22,6 @@ export const metadata = {
   openGraph: {
     url: "https://wrapped.raulcarini.dev",
     siteName: "Developer Wrapped - Raul Carini",
-    images: [
-      {
-        url: "/og-image.webp",
-        width: 843,
-        height: 441,
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
