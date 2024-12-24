@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Raul Carini - Developer Recap",
-  description: "My personal recap as a software engineer.",
+  title: "Raul Carini - Developer Wrapped",
+  description: "A comprehensive overview of my journey, skills, and achievements as a software engineer in the last year.",
 };
 
 export default function RootLayout({ children }) {
