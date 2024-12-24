@@ -37,7 +37,7 @@ const Card = ({ className, children }) => (
   </Tilt>
 );
 
-export default function RecapPage() {
+export default function WrappedPage() {
   return (
     <div className="w-full min-h-[100dvh] p-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 auto-rows-fr relative selection:bg-red-400/25">
       <Card className="col-span-2 row-span-2 flex flex-col justify-around items-center gap-3">
@@ -191,7 +191,7 @@ export default function RecapPage() {
         </div>
         <a
           target="_blank"
-          href="https://github.com/R4ULtv/raulcarini.com-v2/blob/master/app/recap/2024/page.js"
+          href="https://github.com/R4ULtv/developer-wrapped"
           className="border border-zinc-800 px-4 py-1.5 rounded-full text-zinc-50 select-none hover:scale-105 shadow-inner hover:shadow-zinc-800/50 duration-300 transition-all ease-out"
         >
           2024
