@@ -13,7 +13,7 @@ export function Tilt({
   children,
   className,
   style,
-  rotationFactor = 10,
+  rotationFactor = 8,
   isRevese = true,
   springOptions,
 }) {
