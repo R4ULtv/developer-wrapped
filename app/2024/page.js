@@ -30,12 +30,25 @@ const Card = ({ className, children }) => (
   <Tilt
     className={cn(
       className,
-      "p-6 border border-zinc-800 bg-zinc-900/50 backdrop-blur-3xl rounded-3xl relative overflow-hidden shadow-2xl hover:shadow-red-500/15 duration-300 transition-all ease-out"
+      "p-6 border border-zinc-800 bg-zinc-900/50 rounded-3xl relative overflow-hidden shadow-2xl hover:shadow-red-500/15 duration-300 transition-all ease-out"
     )}
   >
     {children}
   </Tilt>
 );
+
+export const metadata = {
+  title: "2024",
+  openGraph: {
+    images: [
+      {
+        url: "/og-image-2024.webp",
+        width: 843,
+        height: 441,
+      },
+    ],
+  },
+};
 
 export default function WrappedPage() {
   return (
@@ -197,7 +210,7 @@ export default function WrappedPage() {
           2024
         </a>
       </div>
-      
+
       <Card className="flex flex-col items-center justify-between">
         <GlobeAltIcon className="z-10 size-16 text-red-500" />
         <div className="absolute top-6 right-1/2 translate-x-1/2 blur-3xl bg-red-500 size-16" />

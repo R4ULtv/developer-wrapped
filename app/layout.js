@@ -12,8 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Raul Carini - Developer Wrapped",
-  description: "A comprehensive overview of my journey, skills, and achievements as a software engineer in the last year.",
+  metadataBase: "https://wrapped.raulcarini.dev",
+  title: {
+    default: "Developer Wrapped - Raul Carini",
+    template: "%s Developer Wrapped - Raul Carini",
+  },
+  description:
+    "A comprehensive overview of my journey, skills, and achievements as a software engineer in the last year.",
+  openGraph: {
+    url: "https://wrapped.raulcarini.dev",
+    siteName: "Developer Wrapped - Raul Carini",
+    images: [
+      {
+        url: "/og-image.webp",
+        width: 843,
+        height: 441,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
