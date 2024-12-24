@@ -51,7 +51,7 @@ export const metadata = {
 
 export default function WrappedPage() {
   return (
-    <div className="w-full min-h-[100dvh] p-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 auto-rows-fr relative selection:bg-red-400/25">
+    <div className="w-full min-h-[100dvh] p-4 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-6 auto-rows-fr relative selection:bg-red-400/25">
       <Card className="col-span-2 row-span-2 flex flex-col justify-around items-center gap-3">
         <div className="absolute bottom-6 right-6 blur-3xl bg-red-500 size-16" />
         <div className="absolute bottom-6 left-6 blur-3xl bg-red-500 size-16" />
@@ -186,8 +186,12 @@ export default function WrappedPage() {
         </div>
       </Card>
 
-      <div className="order-first md:order-none col-span-2 row-span-2 flex flex-col items-center justify-center gap-8 p-6 relative">
-        <a href="https://raulcarini.dev" target="_blank" rel="noopener noreferrer">
+      <div className="order-first xl:order-none col-span-2 row-span-2 flex flex-col items-center justify-center gap-8 p-6 relative">
+        <a
+          href="https://raulcarini.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src={logo}
             width={64}
