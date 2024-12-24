@@ -83,7 +83,6 @@ export default function WrappedPage() {
         <TextEffect
           per="word"
           preset="scale"
-          delay={0.2}
           className="text-7xl font-bold text-zinc-50"
         >
           February
